@@ -86,5 +86,15 @@
 // document.write(`Delete last Color Name in the list: <b>${colorNames.join(" ")}</b>`)
 // Question # 09 (e) End
 
+// Question # 09 (f) Start
+// var colorNames = ["purple","Green","Blue","Red"];
+// var userSel = parseInt(prompt("Which index you want to add a color name?\n(Only in Numbers)"));
+// var user = prompt("Which Color you want to add?");
+// colorNames.splice(userSel,0,user);
+// document.write(`${user} Color at index ${userSel} <br> Here's the list of colors <b>${colorNames.join(" ")}</b>`)
+// Question # 09 (f) End
 
+// Question # 09 (g) Start
+
+// Question # 09 (g) End
 
