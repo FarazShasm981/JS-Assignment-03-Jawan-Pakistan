@@ -95,6 +95,50 @@
 // Question # 09 (f) End
 
 // Question # 09 (g) Start
-
+// var colorName = ["White","Black","Green","Red","Yellow","Blue","Orange"];
+// document.write(colorName.join(" ")+ "<br>");
+// var user = parseInt(prompt("On which index you want to delete the color?"));
+// var userQuan = parseInt(prompt("how many colors you want to delete?")) 
+// document.write(`you are deleted the color at index No. ${user} and you are deleted ${userQuan} color(s) <br> ${colorName.splice(user,userQuan)}<br> Now the color name list are ${colorName}`);
 // Question # 09 (g) End
 
+// Question # 10 Start
+// var studScores = [320,230,480,120];
+// document.write(`Student scores withou sort :${studScores}<br>Ordered Scores of Students ${studScores.sort()}`);
+// Question # 10 End
+
+// Question # 11 Start
+// var citiesName = ["Karachi","Lahore","Islamabad","Rawalpindi","Quetta"];
+// var selCities = citiesName.slice(2,4);
+// document.write(`Cities name : ${citiesName} <br> Selected Cities Name : ${selCities}`);
+// Question # 11 End
+
+// Question # 12 Start
+// var text = ["This","is","my","cat."];
+// document.write(`Array : ${text} <br> ${text.join(" ")}`);
+// Question # 12 End
+
+// Question # 13 Start
+// var gadgets = [];
+// gadgets.push("Keyboard");
+// gadgets.push("Mouse");
+// gadgets.push("Printer");
+// gadgets.push("Monitor");
+// document.write(`<b>Gadgets Stored :</b> ${gadgets} <br>`)
+// document.write(`<b>Gadgets in FIFO :</b> <br>${gadgets.shift()} <br> ${gadgets.shift()}<br>${gadgets.shift()}<br>${gadgets.shift()}`)
+// Question # 13 End
+
+// Question # 14 Start
+// var gadgets = [];
+// gadgets.push("Keyboard");
+// gadgets.push("Mouse");
+// gadgets.push("Printer");
+// gadgets.push("Monitor");
+// document.write(`<b>Gadgets Stored :</b> ${gadgets} <br>`)
+// document.write(`<b>Gadgets in LIFO :</b> <br>${gadgets.pop()} <br> ${gadgets.pop()}<br>${gadgets.pop()}<br>${gadgets.pop()}`)
+// Question # 14 End
+
+// Question # 15 Start
+// var phoneManuf = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// document.write(`<select><option>${phoneManuf[0]}</option><option>${phoneManuf[1]}</option><option>${phoneManuf[2]}</option><option>${phoneManuf[3]}</option><option>${phoneManuf[4]}</option><option>${phoneManuf[5]}</option></select>`)
+// Question # 15 End
